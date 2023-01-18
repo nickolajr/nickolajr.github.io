@@ -6,10 +6,10 @@
 .parent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
     align-items: center;
     justify-content: center;
-    width: 81%;
+    width: auto;
 }
 .parent2 {
   display: flex;
@@ -35,7 +35,7 @@ img {
     height: 375px;
   }
   .card {
-      margin-right: 500px;
+    margin-right: 500px;
       width: 30%;
       height: auto;
     /* Add shadows to create the "card" effect */
@@ -84,7 +84,7 @@ margin-bottom: 20px;
 overflow: auto;
  }
   
-  
+ 
   
   img{
       border-radius: 5px 5px 0 0;
@@ -98,4 +98,29 @@ overflow: auto;
   .container {
     padding: 2px 16px;
   }
+  .sidebar {
+    position: absolute;
+    top: 110;
+    right: 0;
+    height: 1473;
+    width: 300px;
   
+    
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: rgb(209, 210, 249);
+  text-align: center;
+    }
+    #Cv {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: none; /* overlay is hidden by default */
+      z-index: 9999;
+  }
