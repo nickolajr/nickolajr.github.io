@@ -32,11 +32,12 @@ img {
       padding: 20px;
   }
   #Specialed{
-    height: 375px;
+    height: 385px;
+    width: 35%;
   }
   .card {
     margin-right: 500px;
-      width: 30%;
+      width: 35%;
       height: auto;
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
