@@ -1,3 +1,4 @@
+text{color: rgb(95, 15, 64)}
 .container {
     display: flex;
     align-items: flex-start; 
@@ -6,7 +7,6 @@
 .parent {
     display: flex;
     flex-wrap: wrap;
-    
     align-items: center;
     justify-content: center;
     width: auto;
@@ -22,14 +22,11 @@
 
 
 img {
+  
   margin-top: 15px;
     width: 90%;
     height: auto;
     text-align: left;
-  }
-  .section{
-      
-      padding: 20px;
   }
   #Specialed{
     height: 385px;
@@ -105,7 +102,7 @@ overflow: auto;
     right: 0;
     height: 1473;
     width: 300px;
-  
+  margin-right: 28px;
     
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -114,7 +111,7 @@ overflow: auto;
   background-color: rgb(209, 210, 249);
   text-align: center;
     }
-    #Cv {
+    #Project {
       position: fixed;
       top: 0;
       left: 0;
