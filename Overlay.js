@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function() {
                       //test
 window.addEventListener('DOMContentLoaded', function() {
     let openOverlayBtn = document.getElementById("openTest");
-  let overlay = document.getElementById("Project");
+  let overlay = document.getElementById("Test");
   let closeOverlayBtn = document.getElementById("closeTest");
 
 
